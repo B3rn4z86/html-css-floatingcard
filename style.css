@@ -5,15 +5,60 @@
 }
 
 body{
-font-family: sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 }
 
-.section-top{
-padding: 40px;
-text-align: center;
+
+#section-top{
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+
+}
+#section-card{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.section-top h1{
+.card{
+  float: left;
+  width: 400px;
+  height: 100px;
+  margin: 20px 15px 20px 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .8);
+  background-color: black;
+  color: white;
+}
+
+
+
+.img-card img{
+  width: 100px;
+}
+
+.img-card{
+  float: left;
+  padding-right: 20px;
+}
+
+.mail{
+  color: #57c8e7;
+  padding: 10px;
+}
+
+.name{
+  padding: 10px;
+}
+
+
+
+#section-top h1{
   text-align: center;
-  color: blueviolet;
+  color: #E53270;
+  font-weight: 1000;
+}
+#section-top p{
+  text-align: center;
+  margin-top: 50px;
 }
